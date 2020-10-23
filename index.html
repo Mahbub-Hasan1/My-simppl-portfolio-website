@@ -58,9 +58,8 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="index.html">Home</a></li>
-                        <li><a class="nav-link" href="about.html">Aboutus</a></li>
-                        <li><a class="nav-link" href="cycv.html">create your cv</a></li>
-                        <li><a class="nav-link" href="contact.html">Contact Us</a></li>
+                        <li><a class="nav-link" href="#about">Aboutus</a></li>
+                        <li><a class="nav-link" href="#contact">Contact Us</a></li>
                         <li><a class="nav-link active" style="background:#fff;color:#000;" href="contact.html">Sinup now</a></li>
                     </ul>
                 </div>
@@ -268,7 +267,7 @@
     <!-- end section -->
 
     <!-- About -->
-    <div class="section layout_padding" style="background-color: #0A192F;">
+    <div class="section layout_padding" style="background-color: #0A192F;" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 text_align_center">
@@ -338,66 +337,164 @@
     <!-- end section -->
 
     <!-- Start Footer -->
-    <footer class="footer-box">
+   	<!-- section --> 
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <div class="logo">
-                        <a href="index.html"><img src="images/footer_logo.png" alt="#" /></a>
-                    </div>
-                </div>
-                <div class="col-lg-12 white_fonts">
-                    <h4 class="text-align">Contact Us</h4>
-                </div>
-                <div class="margin-top_30 col-md-8 offset-md-2 white_fonts">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="full icon text_align_center">
-                                <img src="images/social1.png">
-                            </div>
-                            <div class="full white_fonts text_align_center">
-                                <p>London 145
-                                    <br>United Kingdom</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="full icon text_align_center">
-                                <img src="images/social2.png">
-                            </div>
-                            <div class="full white_fonts text_align_center">
-                                <p>consultation@gmail.com
-                                    <br>consultation@gmail.com</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="full icon text_align_center">
-                                <img src="images/social3.png">
-                            </div>
-                            <div class="full white_fonts text_align_center">
-                                <p>+7586656566
-                                    <br>+7586656566</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row white_fonts margin-top_30">
-                <div class="col-lg-12">
-                    <div class="full">
-                        <div class="center">
-                            <ul class="social_icon">
-                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                            </ul>
+                <div class="col-md-12">
+                    <div class="full center margin-bottom_30">
+                        <div class="heading_main text_align_center">
+                            <h2><span class="theme_color">CONTACT</span> US</h2>
+                            <p class="large">Contact from</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </footer>
+  <!-- end section -->
+  
+  <!-- section -->
+  <div id="contact" class="contact-box">
+      <div class="container">
+          
+          <div class="row">
+              
+              <div class="col-lg-7 col-sm-7 col-xs-12">
+                <div class="contact-block">
+                  <form id="contactForm">
+                    <div class="row">
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
+                              <div class="help-block with-errors"></div>
+                          </div>                                 
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                              <div class="help-block with-errors"></div>
+                          </div> 
+                      </div>
+                      <div class="col-md-12">
+                          <div class="form-group">
+                              <input type="text" placeholder="Your number" id="number" class="form-control" name="number" required data-error="Please enter your number">
+                              <div class="help-block with-errors"></div>
+                          </div> 
+                      </div>
+                      <div class="col-md-12">
+                          <div class="form-group"> 
+                              <textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
+                              <div class="help-block with-errors"></div>
+                          </div>
+                          <div class="submit-button text-center">
+                              <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                              <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                              <div class="clearfix"></div> 
+                          </div>
+                      </div>
+                    </div>            
+                  </form>
+                </div>
+              </div>
+
+
+              <div class="col-lg-5 col-sm-5 col-xs-12">
+                  <div class="left-contact">
+                      <div class="media cont-line">
+                          <div class="media-left icon-b">
+                              <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body dit-right">
+                              <h4>Address</h4>
+                              <p>Fleming 196 Woodside Circle Mobile, FL 36602</p>
+                          </div>
+                      </div>
+                      <div class="media cont-line">
+                          <div class="media-left icon-b">
+                              <i class="fa fa-envelope" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body dit-right">
+                              <h4>Email</h4>
+                              <a href="#">demoinfo@gmail.com</a><br>
+                              <a href="#">demoinfo@gmail.com</a>
+                          </div>
+                      </div>
+                      <div class="media cont-line">
+                          <div class="media-left icon-b">
+                              <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                          </div>
+                          <div class="media-body dit-right">
+                              <h4>Phone Number</h4>
+                              <a href="#">12345 67890</a><br>
+                              <a href="#">12345 67890</a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+
+
+          </div>
+      </div>
+  </div>
+  <!-- end section -->
+  
+  <!-- Start Footer -->
+  <footer class="footer-box">
+      <div class="container">
+          <div class="row">
+             <div class="col-lg-12">
+                <div class="logo">
+                  <a href="index.html"><img src="images/footer_logo.png" alt="#" /></a>
+                </div>
+             </div>
+             <div class="col-lg-12 white_fonts">
+               <h4 class="text-align">Contact Us</h4>
+             </div>
+             <div class="margin-top_30 col-md-8 offset-md-2 white_fonts">
+               <div class="row">
+                  <div class="col-md-4"> 
+                     <div class="full icon text_align_center">
+                        <img src="images/social1.png">
+                     </div>
+                     <div class="full white_fonts text_align_center">
+                        <p>London 145<br>United Kingdom</p>
+                     </div>
+                  </div>
+                  <div class="col-md-4"> 
+                     <div class="full icon text_align_center">
+                        <img src="images/social2.png">
+                     </div>
+                     <div class="full white_fonts text_align_center">
+                        <p>consultation@gmail.com<br>consultation@gmail.com</p>
+                     </div>
+                  </div>
+                  <div class="col-md-4"> 
+                     <div class="full icon text_align_center">
+                        <img src="images/social3.png">
+                     </div>
+                     <div class="full white_fonts text_align_center">
+                        <p>+7586656566<br>+7586656566</p>
+                     </div>
+                  </div>
+               </div>
+             </div>
+              
+          </div>
+          <div class="row white_fonts margin-top_30">
+             <div class="col-lg-12">
+                <div class="full">
+                    <div class="center">
+                       <ul class="social_icon">
+                          <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                          <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                       </ul>
+                    </div>
+                </div>
+             </div>
+          </div>
+      </div>
+  </footer>
     <!-- End Footer -->
 
     <div class="footer_bottom">
